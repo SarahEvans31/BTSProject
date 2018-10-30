@@ -105,7 +105,7 @@ public static void main(String[] args)
 	}
 	
 	Object[] options3 = { "Jungkook", "Jimin"};
-	className3 =  JOptionPane.showOptionDialog(frame, "Who is the leader of BTS? Points = " + points , 
+	className3 =  JOptionPane.showOptionDialog(frame, "Who is the youngest member of BTS? Points = " + points , 
 			"Question 3:" , 
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
