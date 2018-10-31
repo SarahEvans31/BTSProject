@@ -26,13 +26,13 @@ public static void main(String[] args)
     {
 	name = JOptionPane.showInputDialog("What is your name?");  
 	JOptionPane.showMessageDialog(frame, "Hello, " + name + "!");
-	
+	 ImageIcon icon = new ImageIcon(("BTS.jpg"));
 	Object[] options = {"Yes", "No"};
 	className = JOptionPane.showOptionDialog(frame, "Do You Want A Resfresher On Who BTS Is?",
 			"BEGINNING:",
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			null, options, options[1]);
+			icon, options, options[1]);
 	
 	switch(className)
 	{
@@ -48,12 +48,13 @@ public static void main(String[] args)
 				}
 			}
 	points = 10; 
+	ImageIcon icon1 = new ImageIcon(("debut.jpg"));
 	Object[] options1 = { "2012", "2013", "2015" };
     className1 =  JOptionPane.showOptionDialog(frame, "When did BTS debut? Points = " + points , 
 			"Question 1:",
 			JOptionPane.YES_NO_CANCEL_OPTION, 
 			JOptionPane.QUESTION_MESSAGE,
-			null, options, options[1]);
+			icon1, options, options[1]);
 	
 	switch(className1)
 	{
@@ -77,11 +78,12 @@ public static void main(String[] args)
 	}
 	
 	Object[] options2 = { "R.M", "Jungkook", "Seokjin" };
+	ImageIcon icon2 = new ImageIcon(("RM.jpg"));
 	className2 =  JOptionPane.showOptionDialog(frame, "Who is the leader of BTS? Points = " + points , 
 			"Question 2:",
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			null, options, options[1]);
+			icon, options, options[1]);
 	
 	switch(className2) 
 	{
@@ -127,11 +129,12 @@ public static void main(String[] args)
 	}
 	
 	Object[] options4 = { "Seokjin", "R.M", "J-Hope"};
+	ImageIcon icon4 = new ImageIcon(("J-Hope.jpg"));
 	className4 =  JOptionPane.showOptionDialog(frame, "Who is the best dancer of BTS? Points = " + points , 
 			"Question 4:" , 
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			null, options, options[1]);
+			icon4, options, options[1]);
 	
 	switch(className4)
 	{
