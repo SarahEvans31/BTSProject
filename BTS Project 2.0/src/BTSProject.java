@@ -38,7 +38,7 @@ public static void main(String[] args)
 	{
 		case 0:
 				{
-			JOptionPane.showMessageDialog(frame, "BTS is a seven-member boyband formed under Big Hit Entertainment in 2013 in South Korea,\n their name in English means Bulletproof BoyScouts and Beyond the Scenes. \n There are 4 vocalist and 3 rappers, but they all can do both. \n They worked hard to persue their dream, and they have become what they are today because of that hard work!");
+			JOptionPane.showMessageDialog(frame, "BTS is a seven-member boyband formed under Big Hit Entertainment in 2013 in South Korea,\n their name in English means Bulletproof BoyScouts and Beyond the Scenes. \n There are 4 vocalist and 3 rappers, but they all can do both. \n They worked hard to persue their dream, and they have become what they are today because of that hard work!\n Their fanbase is known as A.R.M.Y which stands for Adorable Representative M.C. for Youth.");
 			break;
 				}
 		case 1:
@@ -54,7 +54,7 @@ public static void main(String[] args)
 			"Question 1:",
 			JOptionPane.YES_NO_CANCEL_OPTION, 
 			JOptionPane.QUESTION_MESSAGE,
-			icon1, options, options[1]);
+			icon1, options1, options1[1]);
 	
 	switch(className1)
 	{
@@ -83,7 +83,7 @@ public static void main(String[] args)
 			"Question 2:",
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			icon, options, options[1]);
+			icon2, options2, options2[1]);
 	
 	switch(className2) 
 	{
@@ -107,11 +107,12 @@ public static void main(String[] args)
 	}
 	
 	Object[] options3 = { "Jungkook", "Jimin"};
+	ImageIcon icon3 = new ImageIcon(("Jungkook.jpg")); 
 	className3 =  JOptionPane.showOptionDialog(frame, "Who is the youngest member of BTS? Points = " + points , 
 			"Question 3:" , 
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			null, options, options[1]);
+			icon3, options3, options3[1]);
 	
 	switch(className3)
 	{
@@ -134,7 +135,7 @@ public static void main(String[] args)
 			"Question 4:" , 
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			icon4, options, options[1]);
+			icon4, options4, options4[1]);
 	
 	switch(className4)
 	{
@@ -158,11 +159,12 @@ public static void main(String[] args)
 	}
 	
 	Object[] options5 = { "A.R.M.Y", "EXO-L's", "MAMA"};
+	ImageIcon icon5 = new ImageIcon(("ARMY.jpg")); 
 	className5 =  JOptionPane.showOptionDialog(frame, "What is the fanbase of BTS called? Points = " + points , 
 			"Question 5:",  
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			null, options, options[1]);
+			icon5, options5, options5[1]);
 	
 	switch(className5)
 	{
@@ -185,11 +187,12 @@ public static void main(String[] args)
 				}		
 	}
 	Object[] options6 = { "Behind the Scenes", "Beyond the Scenes", "BulletProof BoyScouts"};
+	ImageIcon icon6 = new ImageIcon(("logo.png")); 
 	className6 =  JOptionPane.showOptionDialog(frame, "What does BTS stand for? Points = " + points , 
 			"Question 6:", 
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			null, options, options[1]);
+			icon6, options6, options6[1]);
 	
 	switch(className6)
 	{
@@ -213,11 +216,12 @@ public static void main(String[] args)
 	
     
     Object[] options7 = { "3", "5", "7"};
+    ImageIcon icon7 = new ImageIcon(("AllMembers.jpg")); 
 	className7 =  JOptionPane.showOptionDialog(frame, "How many members are there in BTS? Points = " + points , 
 			"Question 7:", 
 			JOptionPane.YES_NO_CANCEL_OPTION,
 			JOptionPane.QUESTION_MESSAGE,
-			null, options, options[1]);
+			icon7, options7, options7[1]);
 	
 	switch(className7)
 	{
@@ -241,11 +245,12 @@ public static void main(String[] args)
 	}
 	
 	 Object[] options8 = { "J-Hope", "Suga", "V"};
+	 ImageIcon icon8 = new ImageIcon(("Taehyung.jpg")); 
 		className8 =  JOptionPane.showOptionDialog(frame, "Which member has the deepest voice? Points = " + points , 
 				"Question 8:", 
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.QUESTION_MESSAGE,
-				null, options, options[1]);
+				icon8, options8, options8[1]);
 		
 		switch(className8)
 		{
@@ -269,11 +274,12 @@ public static void main(String[] args)
 		}
 		
 		Object[] options9 = { "Jimin", "Jin", "Jungkook"};
+		ImageIcon icon9 = new ImageIcon(("Jimin.jpg")); 
 		className9 =  JOptionPane.showOptionDialog(frame, "Which member has the highest voice? Points = " + points , 
 				"Question 9:",
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.QUESTION_MESSAGE,
-				null, options, options[1]);
+				icon9, options9, options9[1]);
 		
 		switch(className9)
 		{
@@ -298,11 +304,12 @@ public static void main(String[] args)
 		}
 		
 		Object[] options10 = { "3", "5"};
+		ImageIcon icon10 = new ImageIcon(("RapLine.jpg")); 
 		className10 =  JOptionPane.showOptionDialog(frame, "How many rappers are in the group? Points = " + points , 
 				"Question 10:", 
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.QUESTION_MESSAGE,
-				null, options, options[1]);
+				icon10, options10, options10[1]);
 		
 		switch(className10)
 		{
@@ -318,12 +325,21 @@ public static void main(String[] args)
 					}
 		}
 		
-		Object[] options11 = {"1-4", "5-7", "8-9", "10"};
+		Object[] options11 = {"Kim Namjoon, Kim Seokjin, Min Yoongi, Jung Hoseok,\n Park Jimin, Kim Taehyung, Jeon Jungkook, BTS!", "Kim Namjoon, Kim Seokjin, Min Yoongi, Jung Hoseok, \n Park Jimin, Kim Taehyung, Jeon Jungkook, BTS , ARMY!"};
+		ImageIcon icon11 = new ImageIcon(("MicDropPerformace.webp"));
+		className11 = JOptionPane.showOptionDialog(frame, "What is the fan chant for BTS? Points = " + points ,
+				"Question 11:",
+				JOptionPane.YES_NO_CANCEL_OPTION,
+				JOptionPane.QUESTION_MESSAGE,
+				icon11, options11, options11[1]); 
+		
+		Object[] options12 = {"1-4", "5-7", "8-9", "10"};
+		ImageIcon icon12 = new ImageIcon(("FirePerformace.jpg")); 
 		className11 =  JOptionPane.showOptionDialog(frame, "What are your points? Points = " + points , 
 				"END:", 
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.QUESTION_MESSAGE,
-				null, options, options[1]);
+				icon12, options12, options12[1]);
 		
 		switch(className11)
 		{
