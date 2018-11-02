@@ -18,6 +18,7 @@ public class BTSProject extends JFrame
 	static int className9;
 	static int className10;
 	static int className11; 
+	static int className12; 
 	static JFrame frame = new JFrame();
 	static int points; 
 	
@@ -43,11 +44,11 @@ public static void main(String[] args)
 				}
 		case 1:
 				{
-				JOptionPane.showMessageDialog(frame, "Alright, let's get to it! You have 10 points to start out with! Try to keep them all!");
+				JOptionPane.showMessageDialog(frame, "Alright, let's get to it! You have 11 points to start out with! Try to keep them all!");
 				break;
 				}
 			}
-	points = 10; 
+	points = 11; 
 	ImageIcon icon1 = new ImageIcon(("debut.jpg"));
 	Object[] options1 = { "2012", "2013", "2015" };
     className1 =  JOptionPane.showOptionDialog(frame, "When did BTS debut? Points = " + points , 
@@ -326,22 +327,37 @@ public static void main(String[] args)
 		}
 		
 		Object[] options11 = {"Kim Namjoon, Kim Seokjin, Min Yoongi, Jung Hoseok,\n Park Jimin, Kim Taehyung, Jeon Jungkook, BTS!", "Kim Namjoon, Kim Seokjin, Min Yoongi, Jung Hoseok, \n Park Jimin, Kim Taehyung, Jeon Jungkook, BTS , ARMY!"};
-		ImageIcon icon11 = new ImageIcon(("MicDropPerformace.webp"));
+		ImageIcon icon11 = new ImageIcon(("MICDROP.jpg"));
 		className11 = JOptionPane.showOptionDialog(frame, "What is the fan chant for BTS? Points = " + points ,
 				"Question 11:",
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.QUESTION_MESSAGE,
 				icon11, options11, options11[1]); 
 		
-		Object[] options12 = {"1-4", "5-7", "8-9", "10"};
+		switch(className12)
+		{
+			case 0:
+					{
+					JOptionPane.showMessageDialog(frame, "Yes! That is the correct fan chant!");
+					break;
+					}
+			case 1:
+					{
+					JOptionPane.showMessageDialog(frame, "Nope! There is no 'ARMY' in the BTS fan chant!");
+					points--;
+					break;
+					}
+		}
+		
+		Object[] options12 = {"1-4", "5-7", "8-10", "11"};
 		ImageIcon icon12 = new ImageIcon(("FirePerformace.jpg")); 
-		className11 =  JOptionPane.showOptionDialog(frame, "What are your points? Points = " + points , 
+		className12 =  JOptionPane.showOptionDialog(frame, "What are your points? Points = " + points , 
 				"END:", 
 				JOptionPane.YES_NO_CANCEL_OPTION,
 				JOptionPane.QUESTION_MESSAGE,
 				icon12, options12, options12[1]);
 		
-		switch(className11)
+		switch(className12)
 		{
 			case 0: 
 					{
