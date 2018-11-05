@@ -119,7 +119,7 @@ public static void main(String[] args)
 	{
 		case 0:
 				{
-				JOptionPane.showMessageDialog(frame, "Yes! Jungkook is the youngest member! He debut when he was only 15-years-old"); 
+				JOptionPane.showMessageDialog(frame, "Yes! Jungkook is the youngest member! He debuted when he was only 15-years-old"); 
 				break;
 				}
 		case 1:
